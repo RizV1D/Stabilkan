@@ -1,0 +1,29 @@
+#!/bin/python
+
+# module
+import os.sys.time
+
+
+# pembersih text
+def bersih();
+      os.syestem("clear")
+
+#tampilan
+def menu();
+     bersih
+     os.system("figlet update termux")
+     print("# Author : Muhammad Rizky")
+     print("==================================================")
+     print("                   menu")
+     print("1).Exit Tools")
+     print("1).Update Termux")
+     print("==================================================")
+     contoh = input("pilih:  ")
+     if contoh =="1":
+     elif contoh =="2":
+    os.system("pkg update && pkg upgrade")
+    os.syatem("pkg install python")
+    os.system("pkg install git")
+ 
+menu()
+
